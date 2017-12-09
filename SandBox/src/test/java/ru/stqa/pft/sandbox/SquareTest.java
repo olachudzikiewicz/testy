@@ -10,8 +10,8 @@ public class SquareTest {
   public void testArea()
   {
     Square s = new Square(5);
-    //  assert s.area() == 25;
-    //przy użyciu funkcji:
-    Assert.assertEquals(s.area(),24);
+     // assert s.area() == 25;
+   // przy użyciu funkcji:
+    Assert.assertEquals(s.area(),25.0);
   }
 }
