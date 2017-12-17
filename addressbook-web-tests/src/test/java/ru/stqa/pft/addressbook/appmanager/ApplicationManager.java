@@ -32,7 +32,7 @@ public class ApplicationManager {
       wd = new InternetExplorerDriver();
     }
 
-    wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //ile sek ma czekać test np na znalezienie
+    wd.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS); //ile sek ma czekać test np na znalezienie
     // elementu, załadowanie strony
     wd.get("http://localhost/addressbook/addressbook/");
     groupHelper = new GroupHelper(wd);
