@@ -7,7 +7,7 @@ public class ContactModificationTest extends TestBase {
 
   @Test (enabled = false)
   public void testContactModification(){
-    app.getNavigationHelper().goToHome();
+    app.goTo().goToHome();
     app.getContactHelper().chooseContact();
     app.getContactHelper().chooseUpdateOption();
     app.getContactHelper().fillData(new ContactData("Anna", "Nowak", "222-333-444", "ola@wp.pl", null),false);
