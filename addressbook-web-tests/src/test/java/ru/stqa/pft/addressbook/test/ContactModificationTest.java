@@ -5,7 +5,7 @@ import ru.stqa.pft.addressbook.model.ContactData;
 
 public class ContactModificationTest extends TestBase {
 
-  @Test
+  @Test (enabled = false)
   public void testContactModification(){
     app.getNavigationHelper().goToHome();
     app.getContactHelper().chooseContact();

@@ -5,7 +5,7 @@ import ru.stqa.pft.addressbook.model.ContactData;
 
 public class ContactCreationTest extends TestBase {
 
-  @Test
+  @Test (enabled = false)
   public void testContact() {
     app.getNavigationHelper().gotoContactPage();
     app.getContactHelper().fillData(new ContactData("Ola", "Nowak", "888-999-000", "ola@wp.pl", "test1"), true);
