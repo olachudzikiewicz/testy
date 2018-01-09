@@ -71,7 +71,7 @@ public class GroupHelper extends HelperBase {
     initGroupModification();
     fillGroupForm(group);
     submitGroupModification();
-    groupCache = null;
+   groupCache = null;
     returnToGroupPage();
   }
 
@@ -92,7 +92,7 @@ public class GroupHelper extends HelperBase {
     return isElementPresent(By.name("selected[]"));
   }
 
-  public int getGroupCount() {
+  public int count() {
     return wd.findElements(By.name("selected[]")).size();
   }
 
@@ -109,7 +109,8 @@ public class GroupHelper extends HelperBase {
 
   private Groups groupCache = null;
 
-  //tworzy zbiór a nie listę
+ //tworzy zbiór a nie listę
+
   public Groups all() {
     if (groupCache != null) {
       return new Groups(groupCache);
@@ -119,7 +120,7 @@ public class GroupHelper extends HelperBase {
     for (WebElement element : elements) {
       String name = element.getText();
       int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      groupCache.add(new GroupData().withId(id).withName(name));//dodajemy stworzony obiekt do listy
+      groupCache.add(new GroupData().withId(id).withName(name));
     }
     return new Groups(groupCache);
   }

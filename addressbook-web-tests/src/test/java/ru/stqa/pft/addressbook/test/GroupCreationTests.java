@@ -1,15 +1,9 @@
 package ru.stqa.pft.addressbook.test;
 
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.MatcherAssert;
-import org.testng.Assert;
+
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.GroupData;
 import ru.stqa.pft.addressbook.model.Groups;
-
-import java.util.Comparator;
-import java.util.List;
-import java.util.Set;
 
 import static org.hamcrest.CoreMatchers.equalTo; //import nie klasy, a konkretnej metody
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -23,11 +17,24 @@ public class GroupCreationTests extends TestBase {
     Groups before = app.group().all();
     GroupData group = new GroupData().withName("test2");
     app.group().create(group);
-    Groups after = app.group().all();
-    assertThat(after.size(),  equalTo(before.size() + 1)); //sprawdzenie czy rozmiar grupy przed i po się zgadza
-
+    assertThat(app.group().count(),  equalTo(before.size() + 1)); //sprawdzenie czy rozmiar grupy przed i po się zgadza
+    Groups after = app.group().all(); // ładowanie listy ponownie
     assertThat(after,
             equalTo(before.withAdded(group.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt())))); //porównanie dwóch obiektów
+  }
+
+  @Test
+  //sprawdzenie dodania nazwy z apostrofem (jest to zła nazwa)
+  public void testGroupBadCreation() {
+    app.goTo().groupPage();
+    Groups before = app.group().all();
+    GroupData group = new GroupData().withName("test2'");
+    app.group().create(group);
+    //sprawdzenie czy rozmiar grupy przed i po się zgadza (nazwa z '
+    // nie powinna się dodać, więc lista przed i po powinna być taka sama
+    assertThat(app.group().count(),  equalTo(before.size()));
+    Groups after = app.group().all();
+    assertThat(after,equalTo(before)); //porównanie dwóch obiektów
   }
 
 }
