@@ -44,11 +44,34 @@
       <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/test/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="137">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#588#598#0" expanded="true" />
+                <element signature="e#625#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="groups.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/groups.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDataGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generator/GroupDataGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1580#1591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -384,11 +407,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/test/ContactPhoneTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generator/GroupDataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/groups.csv" />
         <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/test/GroupCreationTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -753,8 +777,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GroupDataGenerator" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GroupDataGenerator" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testGroupBadCreation" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.ContactCreationTest" />
       </list>
@@ -777,34 +801,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 49m 39s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 51m 15s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 53m 28s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 56m 26s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 56m 46s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 58m 05s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreationTests - 2018.01.09 at 20h 58m 35s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GroupCreationTests - 2018.01.09 at 21h 15m 46s.xml">
+      <configuration name="GroupCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests - 2018.01.14 at 16h 31m 09s.xml">
       <configuration name="GroupCreationTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupCreationTests_testGroupBadCreation - 2018.01.09 at 21h 00m 29s.xml">
       <configuration name="GroupCreationTests.testGroupBadCreation" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.13 at 20h 41m 39s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.13 at 20h 48m 29s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.14 at 16h 29m 50s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.14 at 16h 30m 08s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.14 at 16h 31m 33s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.14 at 16h 32m 49s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.14 at 16h 33m 12s.xml">
       <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -818,7 +842,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -856,7 +880,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -896,7 +920,7 @@
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#588#598#0" expanded="true" />
+            <element signature="e#625#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -917,7 +941,7 @@
           <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#588#598#0" expanded="true" />
+            <element signature="e#625#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1279,30 +1303,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/groups.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generator/GroupDataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1580#1591#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1316,13 +1321,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/test/GroupCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/generator/GroupDataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="273">
+          <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#588#598#0" expanded="true" />
+            <element signature="e#1580#1591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/groups.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/test/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#625#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
