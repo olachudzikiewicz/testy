@@ -7,7 +7,7 @@ import java.io.File;
 
 public class ContactCreationTest extends TestBase {
 
-  @Test (enabled = false)
+  @Test //(enabled = false)
   public void testContact() {
     app.goTo().gotoContactPage();
     app.getContactHelper().fillData(new ContactData("Ola", "Nowak", "888-999-000", "ola@wp.pl", "test1"), true);

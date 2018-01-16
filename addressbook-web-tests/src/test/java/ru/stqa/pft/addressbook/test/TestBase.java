@@ -9,7 +9,10 @@ import ru.stqa.pft.addressbook.appmanager.ApplicationManager;
 
 public class TestBase {
 
-  protected static  final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
+//  protected static  final ApplicationManager app = new ApplicationManager(BrowserType.FIREFOX);
+  //określenie w konfiguracji testu (w polu VM Options dopisujemy : -Dbrowser=chrome, jak nie ustalimy w
+// konfiguracji: BrowserType.FIREFOX - domyślna,
+protected static  final ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.FIREFOX));
 
   @BeforeSuite
   public void setUp() throws Exception {
