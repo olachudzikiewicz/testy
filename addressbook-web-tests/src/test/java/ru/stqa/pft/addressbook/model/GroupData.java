@@ -3,16 +3,36 @@ package ru.stqa.pft.addressbook.model;
 import com.google.gson.annotations.Expose;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamOmitField;
+import org.hibernate.annotations.Type;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @XStreamAlias("group")
+@Entity //wskazówka dla hibernate o powiązaniu GroupData z tabelą group_list (trzeba też wpisać mapowanie w pliku
+// konfiguracyjnym)
+@Table(name = "group_list")
 public class GroupData {
+
 @XStreamOmitField //ma pominąć w generacji xml pole poniżej
+@Id
+@Column(name = "group_id") //piszemy jakiej kolumnie w bazie odpowiada poniższe pole, piszemy tylko jak nazwy są różne
   private  int id = Integer.MAX_VALUE;;
+
   @Expose //dla json określamy co ma się zapisywać do pliku
+  @Column(name = "group_name")
   private  String name;
+
   @Expose
+  @Column(name = "group_header")
+  @Type(type = "text") //dodajemy bo jest to pole wielowierszowe
   private  String header;
+
   @Expose
+  @Column(name = "group_footer")
+  @Type(type = "text")
   private  String footer;
 
   public int getId() {

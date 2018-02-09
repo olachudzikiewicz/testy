@@ -1,5 +1,11 @@
 package ru.stqa.pft.addressbook.model;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity //wskazówka dla hibernate o powiązaniu GroupData z tabelą group_list
+@Table(name = "addressbook")
 public class ContactData {
 
   private final String name;
